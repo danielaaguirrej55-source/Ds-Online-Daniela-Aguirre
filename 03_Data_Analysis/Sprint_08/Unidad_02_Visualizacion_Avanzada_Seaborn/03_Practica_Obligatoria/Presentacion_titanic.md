@@ -41,9 +41,12 @@
 ## 5) Puerto de embarque vs tipo de pasaje
 - Por puerto (embarked) hay diferencias, pero parte se explica por la clase.
 - Interpretación: embarked puede estar correlacionado con el tipo de pasaje.
-|pclass       |    1   |  2    | 3  |                
-|Cherbourg     |69.4%  |52.9% | 37.9% |
-|Queenstown    |50.05% |66.7% | 37.5% |
-|Southampton   |58.3%  |46.3% | 19.0% |
+- 
+```md
+| embarked    | 1   | 2   | 3   |
+|------------|-----|-----|-----|
+| Cherbourg  | 69.4| 52.9| 37.9|
+| Queenstown | 50.0| 66.7| 37.5|
+| Southampton| 58.3| 46.3| 19.0|
 
 **Gráfica:** supervivencia por puerto separada por clase.
