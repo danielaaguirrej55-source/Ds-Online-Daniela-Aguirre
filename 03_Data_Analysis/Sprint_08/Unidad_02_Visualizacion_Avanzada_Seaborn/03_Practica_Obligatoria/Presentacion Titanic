@@ -1,0 +1,49 @@
+# Presentación Titanic
+
+## 1) Mortalidad alta
+- En el Titanic la mortalidad fue elevada con un 61.6%.
+- Dato: supervivencia total = 38.4%.
+
+**Gráfica:** barra de supervivencia (Sí/No).
+
+---
+
+## 2) “Mujeres y niños primero” pero no igual para todos:
+- Las mujeres sobrevivieron más que los hombres.
+- Dato: Supervivencia de 74.2% en mujeres vs el 18.9% en hombres.
+
+**Gráfica:** barra de supervivencia por `sex`.
+
+---
+
+## 3) La clase influyó mucho
+- La clase (pclass) se asocia con la supervivencia.
+- Dato: % supervivencia 1ª/2ª/3ª =
+1    63.0%
+2    47.3%
+3    24.2%
+
+**Gráfica:** barra de supervivencia por `pclass`.
+
+---
+
+## 4) Mujeres vs niños vs hombres
+- Separando por grupos, se ve una ventaja clara para mujeres y niños.
+- Definición: niño = age < 16.
+women       77.5%
+children    59.0%
+male        17.4%
+
+**Gráfica:** barra de supervivencia por grupo (women/children/men).
+
+---
+
+## 5) Puerto de embarque: efecto mezclado con la clase
+- Por puerto (embarked) hay diferencias, pero parte se explica por la clase.
+- Interpretación: embarked puede estar correlacionado con tipo de pasaje.
+|Embarked| 1ra clase| 2da clase| 3ra clase|
+|Cherbourg |  69.4 | 52.9  |37.9 |
+|Queenstown | 50.0  |66.7  |37.5 |
+|Southampton |58.3   |46.3  |19.0 |
+
+**Gráfica:** barra de supervivencia por `embarked` con `hue=pclass`.
